@@ -23,4 +23,4 @@ jobs:
         run: npm install -g html-validator-cli
       
       - name: Validate HTML
-        run: html-validator --input '*.html' --format 'text'
+        run: html-validator --file='index.html' --format 'text'
